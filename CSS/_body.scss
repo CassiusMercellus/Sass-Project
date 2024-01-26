@@ -3,8 +3,52 @@
 // Vars
 $mypurple: rgb(74, 5, 74);
 $mypink: rgb(229, 106, 126);
+$row1width: 20%;
+$row1height: 100px;
 
 // Css
 .row1 {
     display: flex; 
-}
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .row1card1 {
+        background-image: linear-gradient(to right, #9331E4, #6007E3);
+        color: white;
+        width: $row1width;
+        height: $row1height;
+        border-radius: 20px;
+
+        
+        }
+        .r1c1-icon {
+            width: 15px;
+            height: 15px;
+            background-color: #C4AAE4;
+        }
+
+    .row2card2 {
+        background-image: linear-gradient(to right, red , yellow);
+        color: white; 
+        width: $row1width;
+        height: $row1height;
+        border-radius: 20px;
+    }
+    .row3card3 {
+        background-image: linear-gradient(to right, red , yellow);
+        color: white;
+        width: $row1width;
+        height: $row1height;
+        border-radius: 20px;
+    }
+    .row4card4 {
+        background-image: linear-gradient(to right, red , yellow);
+        color: white;
+        width: $row1width;
+        height: $row1height;
+        border-radius: 20px;
+    }
