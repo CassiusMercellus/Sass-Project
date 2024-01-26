@@ -1,0 +1,29 @@
+// Tage file
+header {
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+
+    .leftheader {
+
+        .logo { 
+            font-size: 50px;
+
+        }
+    }
+    .centerheader {
+    //position: relative;
+
+
+        .search{
+            outline: auto;
+
+        }
+    }
+
+    .rightheader {
+        .lightswitcher {
+
+        }
+    }
+}
