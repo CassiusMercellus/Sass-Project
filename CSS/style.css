@@ -45,11 +45,35 @@
   border-radius: 20px;
 }
 
+.dashboard {
+  padding: 10px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 15px;
+  box-shadow: 5px 5px rgb(214, 214, 214);
+}
+.dashboard .dashtop {
+  margin: -10px -10px 10px -10px;
+  display: flex;
+  width: 200px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 5px 5px rgb(221, 221, 221);
+}
+.dashboard .dashtop .dt-header {
+  font-weight: 600;
+  padding: 0px 40px 0px 20px;
+  font-size: 36;
+}
+.dashboard .dashtop .topimg {
+  width: 36px;
+  height: 36px;
+  transform: translateY(16px);
+}
 .dashboard .dashboardpage .dashimg {
   color: rgb(0, 0, 0);
 }
 .dashboard .dashboardpage .dashboardbutton {
-  background-color: white;
+  background-color: rgb(238, 238, 238);
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -59,7 +83,7 @@
   color: rgb(0, 0, 0);
 }
 .dashboard .Appspage .dashboardbutton {
-  background-color: white;
+  background-color: rgb(238, 238, 238);
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -69,7 +93,7 @@
   color: rgb(0, 0, 0);
 }
 .dashboard .chartspage .dashboardbutton {
-  background-color: white;
+  background-color: rgb(238, 238, 238);
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -79,7 +103,7 @@
   color: rgb(0, 0, 0);
 }
 .dashboard .bootstrappage .dashboardbutton {
-  background-color: white;
+  background-color: rgb(238, 238, 238);
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -89,7 +113,7 @@
   color: rgb(0, 0, 0);
 }
 .dashboard .pluginspage .dashboardbutton {
-  background-color: white;
+  background-color: rgb(238, 238, 238);
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -99,7 +123,7 @@
   color: rgb(0, 0, 0);
 }
 .dashboard .widgetpage .dashboardbutton {
-  background-color: white;
+  background-color: rgb(238, 238, 238);
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -109,7 +133,7 @@
   color: rgb(0, 0, 0);
 }
 .dashboard .formspage .dashboardbutton {
-  background-color: white;
+  background-color: rgb(238, 238, 238);
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -119,7 +143,7 @@
   color: rgb(0, 0, 0);
 }
 .dashboard .tablepage .dashboardbutton {
-  background-color: white;
+  background-color: rgb(238, 238, 238);
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -129,7 +153,7 @@
   color: rgb(0, 0, 0);
 }
 .dashboard .pagespage .dashboardbutton {
-  background-color: white;
+  background-color: rgb(238, 238, 238);
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
