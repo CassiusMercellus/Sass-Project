@@ -1,7 +1,129 @@
 // Clay's File to Write
 
 // Vars
-$dashFontSize: 24px;
-$dashFontColor: gray;
+$dashFontSize: 20px;
+$dashFontColor: rgb(0, 0, 0);
+$dashFontWeight:500;
+$buttonPadding: 10px;
+$buttonbackground: white;
 
 // CSS
+.dashboard {
+    
+    .dashboardpage {
+        .dashimg {
+            color: $dashFontColor;
+        }
+        .dashboardbutton {
+            background-color: $buttonbackground;
+            color: $dashFontColor;
+            border:none;
+            padding: $buttonPadding;
+            font-size: $dashFontSize;
+        }
+    }
+
+    .Appspage {
+        .appsimg {
+            color: $dashFontColor;
+        }
+        .dashboardbutton {
+            background-color: $buttonbackground;
+            color: $dashFontColor;
+            border:none;
+            padding: $buttonPadding;
+            font-size: $dashFontSize;
+        }
+    }
+
+    .chartspage {
+        .chartsimg {
+            color: $dashFontColor;
+        }
+        .dashboardbutton {
+            background-color: $buttonbackground;
+            color: $dashFontColor;
+            border:none;
+            padding: $buttonPadding;
+            font-size: $dashFontSize;
+        }
+    }
+    
+    .bootstrappage {
+        .bootimg {
+            color: $dashFontColor;
+        }
+        .dashboardbutton {
+            background-color: $buttonbackground;
+            color: $dashFontColor;
+            border:none;
+            padding: $buttonPadding;
+            font-size: $dashFontSize;
+        }
+    }
+
+    .pluginspage {
+        .pluginsimg {
+            color: $dashFontColor;
+        }
+        .dashboardbutton {
+            background-color: $buttonbackground;
+            color: $dashFontColor;
+            border:none;
+            padding: $buttonPadding;
+            font-size: $dashFontSize;
+        }
+    }
+
+    .widgetpage {
+        .widgetimg {
+            color: $dashFontColor;
+        }
+        .dashboardbutton {
+            background-color: $buttonbackground;
+            color: $dashFontColor;
+            border:none;
+            padding: $buttonPadding;
+            font-size: $dashFontSize;
+        }
+    }
+
+    .formspage {
+        .formsimg {
+            color: $dashFontColor;
+        }
+        .dashboardbutton {
+            background-color: $buttonbackground;
+            color: $dashFontColor;
+            border:none;
+            padding: $buttonPadding;
+            font-size: $dashFontSize;
+        }
+    }
+
+    .tablepage {
+        .tableimg {
+            color: $dashFontColor;
+        }
+        .dashboardbutton {
+            background-color: $buttonbackground;
+            color: $dashFontColor;
+            border:none;
+            padding: $buttonPadding;
+            font-size: $dashFontSize;
+        }
+    }
+
+    .pagespage {
+        .pagesimg {
+            color: $dashFontColor;
+        }
+        .dashboardbutton {
+            background-color: $buttonbackground;
+            color: $dashFontColor;
+            border:none;
+            padding: $buttonPadding;
+            font-size: $dashFontSize;
+        }
+    }
+}

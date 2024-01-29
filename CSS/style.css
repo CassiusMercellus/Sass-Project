@@ -43,4 +43,107 @@
   width: 20%;
   height: 100px;
   border-radius: 20px;
+}
+
+.dashboard .dashboardpage .dashimg {
+  color: rgb(0, 0, 0);
+}
+.dashboard .dashboardpage .dashboardbutton {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+.dashboard .Appspage .appsimg {
+  color: rgb(0, 0, 0);
+}
+.dashboard .Appspage .dashboardbutton {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+.dashboard .chartspage .chartsimg {
+  color: rgb(0, 0, 0);
+}
+.dashboard .chartspage .dashboardbutton {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+.dashboard .bootstrappage .bootimg {
+  color: rgb(0, 0, 0);
+}
+.dashboard .bootstrappage .dashboardbutton {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+.dashboard .pluginspage .pluginsimg {
+  color: rgb(0, 0, 0);
+}
+.dashboard .pluginspage .dashboardbutton {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+.dashboard .widgetpage .widgetimg {
+  color: rgb(0, 0, 0);
+}
+.dashboard .widgetpage .dashboardbutton {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+.dashboard .formspage .formsimg {
+  color: rgb(0, 0, 0);
+}
+.dashboard .formspage .dashboardbutton {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+.dashboard .tablepage .tableimg {
+  color: rgb(0, 0, 0);
+}
+.dashboard .tablepage .dashboardbutton {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+.dashboard .pagespage .pagesimg {
+  color: rgb(0, 0, 0);
+}
+.dashboard .pagespage .dashboardbutton {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  background-color: blue;
+  justify-content: space-between;
+}
+header .leftheader .logo {
+  font-size: 50px;
+}
+header .centerheader .search {
+  outline: auto;
 }/*# sourceMappingURL=style.css.map */
