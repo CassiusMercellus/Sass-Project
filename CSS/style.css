@@ -170,4 +170,7 @@ header .leftheader .logo {
 }
 header .centerheader .search {
   outline: auto;
+}
+body {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
