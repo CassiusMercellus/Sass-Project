@@ -46,18 +46,19 @@
 }
 
 .dashboard {
+  margin-right: 10px;
   padding: 10px;
   background-color: rgb(238, 238, 238);
   border-radius: 15px;
-  box-shadow: 5px 5px rgb(214, 214, 214);
+  box-shadow: 5px 5px 5px rgb(214, 214, 214);
 }
 .dashboard .dashtop {
   margin: -10px -10px 10px -10px;
   display: flex;
-  width: 200px;
+  padding: 0px 10px;
   background-color: white;
   border-radius: 15px;
-  box-shadow: 5px 5px rgb(221, 221, 221);
+  box-shadow: 0px 5px 5px rgb(221, 221, 221);
 }
 .dashboard .dashtop .dt-header {
   font-weight: 600;
