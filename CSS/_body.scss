@@ -5,7 +5,7 @@ $mypurple: rgb(74, 5, 74);
 $mypink: rgb(229, 106, 126);
 $row1width: 20%;
 $row1height: 100px;
-$bannerIconSize: 35px;
+$bannerIconSize: 40px;
 
 // ALL HTML
 
@@ -33,33 +33,122 @@ $bannerIconSize: 35px;
         width: $row1width;
         height: $row1height;
         border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
 
-        
         }
         .r1c1-icon {
             width: $bannerIconSize;
             height: $bannerIconSize;
             background-color: #C4AAE4;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            border-radius: 45px;
+        }
+        .cardnumber {
+            margin-left: 16px;
+            margin-bottom: 50px;
+        }
+        .r1text {
+            margin-top: 40px;
+            margin-left: 75px;
+            position: absolute;
         }
 
     .row2card2 {
-        background-image: linear-gradient(to right, red , yellow);
-        color: white; 
+        background-image: linear-gradient(to right, #9600FD, #E00BFC);
+        color: white;
         width: $row1width;
         height: $row1height;
         border-radius: 20px;
-    }
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+    
+        }
+        .r1c2-icon {
+            width: $bannerIconSize;
+            height: $bannerIconSize;
+            background-color: #C4AAE4;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            border-radius: 45px;
+        }
+        .cardnumber {
+            margin-left: 16px;
+            margin-bottom: 50px;
+        }
+        .r1text {
+            margin-top: 40px;
+            margin-left: 75px;
+            position: absolute;
+        }
     .row3card3 {
-        background-image: linear-gradient(to right, red , yellow);
+        background-image: linear-gradient(to right, #9430E5, #5B05E3);
         color: white;
         width: $row1width;
         height: $row1height;
         border-radius: 20px;
-    }
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+    
+        }
+        .r1c3-icon {
+            width: $bannerIconSize;
+            height: $bannerIconSize;
+            background-color: #C4AAE4;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            border-radius: 45px;
+        }
+        .cardnumber {
+            margin-left: 16px;
+            margin-bottom: 50px;
+        }
+        .r1text {
+            margin-top: 40px;
+            margin-left: 75px;
+            position: absolute;
+        }
     .row4card4 {
-        background-image: linear-gradient(to right, red , yellow);
+        background-image: linear-gradient(to right, #ED04CB, #4734A0);
         color: white;
         width: $row1width;
         height: $row1height;
         border-radius: 20px;
-    }
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+    
+        }
+        .r1c4-icon {
+            width: $bannerIconSize;
+            height: $bannerIconSize;
+            background-color: #C4AAE4;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            border-radius: 45px;
+        }
+        .cardnumber {
+            margin-left: 16px;
+            margin-bottom: 50px;
+        }
+        .r1text {
+            margin-top: 40px;
+            margin-left: 75px;
+            position: absolute;
+        }
