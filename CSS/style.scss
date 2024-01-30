@@ -1,3 +1,7 @@
 @use 'body';
 @use 'dashboard';
 @use 'header';
+
+body {
+    display:flex;
+}
