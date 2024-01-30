@@ -8,21 +8,34 @@ header {
 
         .logo { 
             font-size: 50px;
-
+            margin-top: 15px;
+            margin-bottom: 20px;;
         }
     }
     .centerheader {
     //position: relative;
-
+         
 
         .search{
             outline: auto;
+            margin-top: 25px;
 
         }
     }
 
     .rightheader {
+        margin-right: 0px;
+        display: flex;
         .lightswitcher {
+            display: flex;
+        }
+    }
+
+    .rightbutton {
+        
+        .therightbutton {
+            background-color: rgb(211, 17, 185);
+            margin-right: 50px;
 
         }
     }

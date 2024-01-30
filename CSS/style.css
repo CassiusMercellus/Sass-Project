@@ -172,10 +172,25 @@ header {
 }
 header .leftheader .logo {
   font-size: 50px;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 header .centerheader .search {
   outline: auto;
+  margin-top: 25px;
 }
+header .rightheader {
+  margin-right: 0px;
+  display: flex;
+}
+header .rightheader .lightswitcher {
+  display: flex;
+}
+header .rightbutton .therightbutton {
+  background-color: rgb(211, 17, 185);
+  margin-right: 50px;
+}
+
 body {
   display: flex;
 }/*# sourceMappingURL=style.css.map */
