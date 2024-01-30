@@ -1,28 +1,41 @@
 // Tage file!!
 header {
     display: flex;
-    background-color: blue;
+    background-color: rgb(176, 176, 188);
     justify-content: space-between;
 
     .leftheader {
 
         .logo { 
             font-size: 50px;
-
+            margin-top: 15px;
+            margin-bottom: 20px;;
         }
     }
     .centerheader {
     //position: relative;
-
+         
 
         .search{
             outline: auto;
+            margin-top: 25px;
 
         }
     }
 
     .rightheader {
+        margin-right: 0px;
+        display: flex;
         .lightswitcher {
+            display: flex;
+        }
+    }
+
+    .rightbutton {
+        
+        .therightbutton {
+            background-color: rgb(211, 17, 185);
+           
 
         }
     }

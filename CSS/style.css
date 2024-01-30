@@ -269,15 +269,29 @@
 
 header {
   display: flex;
-  background-color: blue;
+  background-color: rgb(176, 176, 188);
   justify-content: space-between;
 }
 header .leftheader .logo {
   font-size: 50px;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 header .centerheader .search {
   outline: auto;
+  margin-top: 25px;
 }
+header .rightheader {
+  margin-right: 0px;
+  display: flex;
+}
+header .rightheader .lightswitcher {
+  display: flex;
+}
+header .rightbutton .therightbutton {
+  background-color: rgb(211, 17, 185);
+}
+
 body {
   display: flex;
 }/*# sourceMappingURL=style.css.map */
