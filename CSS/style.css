@@ -301,6 +301,9 @@
   border-radius: 50%;
   margin: 5px;
   border-color: white;
+  border-color: white;
+  border-width: 2px;
+  border-style: ridge;
 }
 .therightcard .trc-right .microsoft-logo .ml-top .mlt-right .blue {
   background-color: blue;
