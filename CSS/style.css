@@ -292,7 +292,7 @@
 .dashboard {
   margin-right: 10px;
   padding: 10px;
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(248, 248, 248);
   border-radius: 15px;
   box-shadow: 5px 5px 5px rgb(214, 214, 214);
 }
@@ -318,7 +318,7 @@
   color: rgb(0, 0, 0);
 }
 .dashboard .dashboardpage .dashboardbutton {
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(248, 248, 248);
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -328,7 +328,7 @@
   color: rgb(0, 0, 0);
 }
 .dashboard .Appspage .dashboardbutton {
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(248, 248, 248);
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -338,7 +338,7 @@
   color: rgb(0, 0, 0);
 }
 .dashboard .chartspage .dashboardbutton {
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(248, 248, 248);
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -348,7 +348,7 @@
   color: rgb(0, 0, 0);
 }
 .dashboard .bootstrappage .dashboardbutton {
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(248, 248, 248);
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -358,7 +358,7 @@
   color: rgb(0, 0, 0);
 }
 .dashboard .pluginspage .dashboardbutton {
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(248, 248, 248);
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -368,7 +368,7 @@
   color: rgb(0, 0, 0);
 }
 .dashboard .widgetpage .dashboardbutton {
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(248, 248, 248);
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -378,7 +378,7 @@
   color: rgb(0, 0, 0);
 }
 .dashboard .formspage .dashboardbutton {
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(248, 248, 248);
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -388,7 +388,7 @@
   color: rgb(0, 0, 0);
 }
 .dashboard .tablepage .dashboardbutton {
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(248, 248, 248);
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -398,7 +398,7 @@
   color: rgb(0, 0, 0);
 }
 .dashboard .pagespage .dashboardbutton {
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(248, 248, 248);
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px;
@@ -407,27 +407,75 @@
 
 header {
   display: flex;
-  background-color: rgb(176, 176, 188);
+  background-color: rg(248, 248, 248);
   justify-content: space-between;
 }
+header .leftheader {
+  width: 40%;
+}
 header .leftheader .logo {
-  font-size: 50px;
+  font-size: 35px;
+  font-weight: 550;
   margin-top: 15px;
   margin-bottom: 20px;
+  margin-right: 50px;
 }
-header .centerheader .search {
-  outline: auto;
-  margin-top: 25px;
+header .searchheader .search {
+  margin-top: 10px;
+  margin-right: 45px;
+  height: 40px;
+  width: 300px;
+  border-radius: 25px;
+  display: flex;
+}
+header .searchheader .searchbar {
+  padding-left: 20px;
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  border-color: white;
+  box-shadow: 0px 5px 5px rgb(221, 221, 221);
+  color: rgb(0, 162, 255);
+  background-color: white;
 }
 header .rightheader {
-  margin-right: 0px;
+  margin-top: 10px;
+  margin-right: 20px;
   display: flex;
 }
 header .rightheader .lightswitcher {
   display: flex;
 }
+header .rightheader .righticonbuttons {
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+  margin-right: 25px;
+  margin-top: 20px;
+}
+header .rightheader .righticonbuttons .lightswitcher {
+  margin-top: 8px;
+}
 header .rightbutton .therightbutton {
-  background-color: rgb(211, 17, 185);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #8a23ff;
+  height: 50px;
+  width: 200px;
+  border: none;
+  padding: 0px 20px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 5px rgb(221, 221, 221);
+}
+header .rightbutton .therightbutton .r-buttontext {
+  font-weight: 550;
+  font-size: 15px;
+  color: white;
+}
+header .rightbutton .therightbutton .r-buttonicon {
+  padding-top: 17px;
 }
 
 .everything {
