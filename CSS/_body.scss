@@ -175,3 +175,114 @@ $bannerIconSize: 40px;
             position: absolute;
         }
 
+.row2 {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .r2-leftcard {
+        background-color: #ECECF0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        width: 75%;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
+        margin-top: 15px;
+        }
+
+        .theleftcard {
+            background-image: linear-gradient(to right, #9430E4, #615BE6);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            width: 45%;
+            height: 200px;
+            border-radius: 20px;
+            margin: 2.5% 2.5%;
+            }
+
+            .inviscircle {
+                width: $bannerIconSize - 10px;
+                height: $bannerIconSize - 10px;
+                background-color: #C4AAE4;
+                // margin-left: 20px;
+                // margin-bottom: 10px;
+                border-radius: 45px;
+            }
+        
+    .r2-rightcard {
+        background-color: #ECECF0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        width: 22.5%;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
+        margin-top: 15px;
+    }
+
+.row3 {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .r3-friend {
+        background-color: #ECECF0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        width: 25%;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
+        margin-top: 15px;
+        }
+
+    .r3b2-spending {
+        background-color: #ECECF0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        width: 25%;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
+        margin-top: 15px;
+        }
+
+    .r3-transaction {
+        background-color: #ECECF0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        width: 45%;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
+        margin-top: 15px;
+        }
