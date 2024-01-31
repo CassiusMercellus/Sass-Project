@@ -194,7 +194,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
-  justify-content: space-between;
   align-items: center;
   width: 75%;
   border-radius: 20px;
@@ -247,6 +246,113 @@
 
 .r2stext {
   transform: translate(-165px, 25px);
+}
+
+.therightcard {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.therightcard .trc-left .trc-list {
+  display: flex;
+}
+.therightcard .trc-left .trc-list .trc-list1 .trc-list-item1 {
+  display: flex;
+}
+.therightcard .trc-left .trc-list .trc-list1 .trc-list-item1 .item1color {
+  background-color: purple;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.therightcard .trc-left .trc-list .trc-list1 .trc-list-item2 {
+  display: flex;
+}
+.therightcard .trc-left .trc-list .trc-list1 .trc-list-item2 .item2color {
+  background-color: purple;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.therightcard .trc-left .trc-list .trc-list1 .trc-list-item3 {
+  display: flex;
+}
+.therightcard .trc-left .trc-list .trc-list1 .trc-list-item3 .item3color {
+  background-color: purple;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.therightcard .trc-left .trc-list .trc-list1 .trc-list-item4 {
+  display: flex;
+}
+.therightcard .trc-left .trc-list .trc-list1 .trc-list-item4 .item4color {
+  background-color: purple;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.therightcard .trc-left .trc-list .trc-list1 .trc-item-text {
+  font-weight: 600;
+  margin-right: 20px;
+}
+.therightcard .trc-left .trc-list .trc-list2 .trc-item-number {
+  color: gray;
+  margin-left: 70px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.therightcard .trc-right {
+  padding: 2% 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.therightcard .trc-right .microsoft-logo .ml-top {
+  display: flex;
+}
+.therightcard .trc-right .microsoft-logo .ml-top .mlt-left .gray {
+  background-color: gray;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 5px;
+  border-color: white;
+}
+.therightcard .trc-right .microsoft-logo .ml-top .mlt-right .blue {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 5px;
+  border-color: white;
+}
+.therightcard .trc-right .microsoft-logo .ml-bottom {
+  display: flex;
+}
+.therightcard .trc-right .microsoft-logo .ml-bottom .mlb-left .orange {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 5px;
+  border-color: white;
+}
+.therightcard .trc-right .microsoft-logo .ml-bottom .mlb-right .green {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 5px;
+  border-color: white;
 }
 
 .r2-rightcard {

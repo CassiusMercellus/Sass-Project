@@ -73,7 +73,6 @@ $bannerIconSize: 40px;
         align-content: center;
         justify-content: flex-start;
         align-items: center;
-    
         }
         .r1c2-icon {
             width: $bannerIconSize;
@@ -191,7 +190,6 @@ $bannerIconSize: 40px;
         flex-direction: row;
         flex-wrap: wrap;
         align-content: center;
-        justify-content: space-between;
         align-items: center;
         width: 75%;
         border-radius: 20px;
@@ -248,6 +246,138 @@ $bannerIconSize: 40px;
             .r2stext {
                 transform: translate(-165px, 25px);
             }
+
+        .therightcard {
+            display:flex;
+            justify-content: space-between;
+            align-content:center;
+
+            .trc-left {
+                .trc-list {
+                    display:flex;
+                    .trc-list1 {
+                    
+                        .trc-list-item1 {
+                            display:flex;
+                            .item1color {
+                                background-color:purple;
+                                border-radius:50%;
+                                width: 18px;
+                                height: 18px;
+                                margin-right: 10px;
+                                margin-bottom: 10px;
+                            }
+                        }
+    
+                        .trc-list-item2 {
+                            display:flex;
+                            .item2color {
+                                background-color:purple;
+                                border-radius:50%;
+                                width: 18px;
+                                height: 18px;
+                                margin-right: 10px;
+                                margin-bottom: 10px;
+                            }
+                        }
+    
+                        .trc-list-item3 {
+                            display:flex;
+                            .item3color {
+                                background-color:purple;
+                                border-radius:50%;
+                                width: 18px;
+                                height: 18px;
+                                margin-right: 10px;
+                                margin-bottom: 10px;
+                            }
+                        }
+    
+                        .trc-list-item4 {
+                            display:flex;
+                            .item4color {
+                                background-color:purple;
+                                border-radius:50%;
+                                width: 18px;
+                                height: 18px;
+                                margin-right: 10px;
+                                margin-bottom: 10px;
+                            }
+                        }
+    
+                        .trc-item-text {
+                            font-weight: 600;
+                            margin-right: 20px;
+                        }
+                        
+                    }
+                    .trc-list2 {
+                        .trc-item-number {
+                            color:gray;
+                            margin-left: 70px;
+                            margin-right: 10px;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+                
+            }
+            .trc-right {
+                padding: 2% 20px;
+                display:flex;
+                align-content: center;
+                justify-content: center;
+                .microsoft-logo {
+                    .ml-top {
+                        display:flex;
+                        .mlt-left {
+                            .gray {
+                                background-color: gray;
+                                width: 100px;
+                                height: 100px;
+                                border-radius: 50%;
+                                margin: 5px;
+                                border-color:white;
+                            }
+                        }
+                        .mlt-right {
+                            .blue {
+                                background-color: blue;
+                                width: 100px;
+                                height: 100px;
+                                border-radius: 50%;
+                                margin: 5px;
+                                border-color:white;
+                            }
+                        }
+                    }
+                    .ml-bottom {
+                        display:flex;
+                        .mlb-left {
+                            .orange {
+                                background-color: orange;
+                                width: 100px;
+                                height: 100px;
+                                border-radius: 50%;
+                                margin: 5px;
+                                border-color:white;
+                            }
+                        }
+                        .mlb-right {
+                            .green {
+                                background-color: green;
+                                width: 100px;
+                                height: 100px;
+                                border-radius: 50%;
+                                margin: 5px;
+                                border-color:white;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
         
         .r2-rightcard {
             background-color: #ECECF0;
@@ -262,6 +392,7 @@ $bannerIconSize: 40px;
             box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
             margin-top: 15px;
         }
+
 
 .row3 {
     display: flex; 
