@@ -197,7 +197,7 @@
   align-items: center;
   width: 75%;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
+  box-shadow: 5px 5px 5px 0 rgb(255, 255, 255);
   margin-top: 15px;
 }
 
@@ -207,7 +207,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-content: center;
+  align-content: flex-start;
   justify-content: center;
   align-items: center;
   width: 45%;
@@ -221,6 +221,31 @@
   height: 30px;
   background-color: #C4AAE4;
   border-radius: 45px;
+  position: absolute;
+}
+
+#firstCircle {
+  transform: translate(-215px, -45px);
+}
+
+#secondCircle {
+  transform: translate(-195px, -45px);
+}
+
+.r2lc-money {
+  position: absolute;
+}
+
+.r2cardnumber {
+  transform: translate(-135px, 75px);
+}
+
+.r2text {
+  transform: translate(-125px, 65px);
+}
+
+.r2stext {
+  transform: translate(-165px, 25px);
 }
 
 .therightcard {
@@ -295,16 +320,15 @@
   display: flex;
 }
 .therightcard .trc-right .microsoft-logo .ml-top .mlt-left .gray {
-  background-color: gray;
+  background-color: rgb(70, 49, 255);
   width: 100px;
   height: 100px;
   border-radius: 50%;
   margin: 5px;
   border-color: white;
-  border-width: 3px;
 }
 .therightcard .trc-right .microsoft-logo .ml-top .mlt-right .blue {
-  background-color: blue;
+  background-color: rgb(152, 62, 255);
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -315,7 +339,7 @@
   display: flex;
 }
 .therightcard .trc-right .microsoft-logo .ml-bottom .mlb-left .orange {
-  background-color: orange;
+  background-color: rgb(208, 54, 255);
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -323,7 +347,7 @@
   border-color: white;
 }
 .therightcard .trc-right .microsoft-logo .ml-bottom .mlb-right .green {
-  background-color: green;
+  background-color: rgb(67, 180, 255);
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -354,21 +378,7 @@
   align-items: center;
 }
 
-.r3-friend {
-  background-color: #ECECF0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-between;
-  align-items: center;
-  width: 25%;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
-  margin-top: 15px;
-}
-
-.r3b2-spending {
+.r3-friend, .r3b2-spending, .r3-transaction {
   background-color: #ECECF0;
   display: flex;
   flex-direction: row;
@@ -383,17 +393,7 @@
 }
 
 .r3-transaction {
-  background-color: #ECECF0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-between;
-  align-items: center;
   width: 45%;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
-  margin-top: 15px;
 }
 
 .dashboard {
