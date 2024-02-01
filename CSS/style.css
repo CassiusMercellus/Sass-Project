@@ -195,7 +195,7 @@
   flex-wrap: wrap;
   align-content: center;
   align-items: center;
-  width: 75%;
+  width: 68%;
   border-radius: 20px;
   box-shadow: 5px 5px 5px 0 rgb(255, 255, 255);
   margin-top: 15px;
@@ -211,43 +211,26 @@
   justify-content: center;
   align-items: center;
   width: 45%;
-  height: 200px;
+  height: 225px;
   border-radius: 20px;
   margin: 2.5% 2.5%;
 }
 
-.inviscircle {
+.inviscircleicon {
+  display: flex;
+}
+.inviscircleicon .inviscircle {
   width: 30px;
   height: 30px;
   background-color: #C4AAE4;
+  margin: 0px -6px;
   border-radius: 45px;
-  position: absolute;
 }
-
-#firstCircle {
-  transform: translate(-215px, -45px);
-}
-
-#secondCircle {
-  transform: translate(-195px, -45px);
-}
-
 .r2lc-money {
-  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
-
-.r2cardnumber {
-  transform: translate(-135px, 75px);
-}
-
-.r2text {
-  transform: translate(-125px, 65px);
-}
-
-.r2stext {
-  transform: translate(-165px, 25px);
-}
-
 .therightcard {
   display: flex;
   justify-content: space-between;
@@ -260,7 +243,7 @@
   display: flex;
 }
 .therightcard .trc-left .trc-list .trc-list1 .trc-list-item1 .item1color {
-  background-color: purple;
+  background-color: rgb(53, 0, 175);
   border-radius: 50%;
   width: 18px;
   height: 18px;
@@ -282,7 +265,7 @@
   display: flex;
 }
 .therightcard .trc-left .trc-list .trc-list1 .trc-list-item3 .item3color {
-  background-color: purple;
+  background-color: rgb(4, 165, 240);
   border-radius: 50%;
   width: 18px;
   height: 18px;
@@ -293,7 +276,7 @@
   display: flex;
 }
 .therightcard .trc-left .trc-list .trc-list1 .trc-list-item4 .item4color {
-  background-color: purple;
+  background-color: rgb(218, 15, 218);
   border-radius: 50%;
   width: 18px;
   height: 18px;
@@ -357,16 +340,73 @@
 
 .r2-rightcard {
   background-color: #ECECF0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-between;
-  align-items: center;
-  width: 22.5%;
+  width: 30%;
   border-radius: 20px;
   box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
   margin-top: 15px;
+}
+.r2-rightcard .rc-header0 {
+  display: flex;
+  flex-direction: column;
+}
+.r2-rightcard .rc-header0 .rc-header1 {
+  display: flex;
+  justify-content: space-around;
+}
+.r2-rightcard .rc-header0 .rc-header1 .rch1-right {
+  display: flex;
+}
+.r2-rightcard .rc-header0 .rc-header1 .rch1-right .rch1r-text {
+  font-weight: 550;
+}
+.r2-rightcard .rc-header0 .rc-header1 .rch1-right .rch1r-icon {
+  background-color: rgb(218, 15, 218);
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.r2-rightcard .rc-header0 .rc-header2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -35px;
+}
+.r2-rightcard .rc-header0 .rc-header2 .rch2-left {
+  font-size: 25px;
+}
+.r2-rightcard .rc-header0 .rc-header2 .rch2-right {
+  display: flex;
+}
+.r2-rightcard .rc-header0 .rc-header2 .rch2-right .rch2r-text {
+  font-weight: 550;
+}
+.r2-rightcard .rc-header0 .rc-header2 .rch2-right .rch2r-icon {
+  background-color: rgb(218, 15, 218);
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.r2-rightcard .progress1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.r2-rightcard .progress1 .r2-progress .r2-progress-value {
+  align-content: center;
+  margin: 2% -4%;
+  width: 350px;
+  color: purple;
+  background-color: purple;
+  border-radius: 15px;
+}
+.r2-rightcard .progress1 .r2-progress .r2-progtext {
+  margin: 5px 10px;
+  font-weight: 550;
+  color: gray;
 }
 
 .row3 {
