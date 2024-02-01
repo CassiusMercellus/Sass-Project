@@ -241,8 +241,10 @@ $bannerIconSize: 40px;
                 display: flex;
                 width:100%;
                 justify-content: space-between;
+                
                 .r2money {
-                    
+                    padding: 0px 30px;
+                    margin-top: 20px;
                     .r2cardnumber{
                     
                     } 
@@ -257,18 +259,29 @@ $bannerIconSize: 40px;
                 }
 
                 .r2sidebar {
-                    .r2money {
-
-                    }
+                    padding: 0px 30px;
+                    display: flex;
+                    align-items: center;
                     .r2changebtn {
+                        background-color:white;
+                        color: #303030;
+                        border-radius: 10px;
+                        display:flex;
+                        flex-direction:column;
+                        align-items: center;
+                        
                         .reloadicon {
-
+                            padding-top: 10px;
                         }
                         .changebtn {
-
+                            transform:rotate(-90deg);
+                            padding: 50px 0px;
+                            margin: 0px;
+                            font-weight: 550;
+                            font-size:18px;
                         }
                         .dropdownicon {
-
+                            padding-bottom: 10px;
                         }
                     }
                 }

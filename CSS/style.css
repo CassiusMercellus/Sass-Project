@@ -231,6 +231,37 @@
   width: 100%;
   justify-content: space-between;
 }
+.r2lc-money .r2money {
+  padding: 0px 30px;
+  margin-top: 20px;
+}
+.r2lc-money .r2sidebar {
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+}
+.r2lc-money .r2sidebar .r2changebtn {
+  background-color: white;
+  color: #303030;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.r2lc-money .r2sidebar .r2changebtn .reloadicon {
+  padding-top: 10px;
+}
+.r2lc-money .r2sidebar .r2changebtn .changebtn {
+  transform: rotate(-90deg);
+  padding: 50px 0px;
+  margin: 0px;
+  font-weight: 550;
+  font-size: 18px;
+}
+.r2lc-money .r2sidebar .r2changebtn .dropdownicon {
+  padding-bottom: 10px;
+}
+
 .therightcard {
   display: flex;
   justify-content: space-between;
