@@ -66,26 +66,37 @@ $bannerIconSize: 40px;
             .r3b1-account-panel {
                 display:flex;
                 justify-content: space-between;
+                align-items: center;
+                background-color: #cfc0f0;
+                border-radius: 25px;
+                width: 350px;
+                padding: 0px 10px;
 
                 .r3b1-theleft {
                     display:flex;
                     .r3b1-pfp {
+                        display: flex;
                         margin-right: 20px;
+                        align-items: center;
                         .imageicon {
                             border-radius: 50%;
                             background-color: rgb(255, 166, 0);
                             width: 45px;
                             height: 45px;
                             border-style: solid;
-                            border-color: white;
+                            border-color: rgb(255, 166, 0);
                         }
                     }
                     .r3b1-acc-words {
+                       margin: 0px;
                         .r3b1-acc-header {
-                            
+                            margin:-16x 0px;
                         }
                         .r3b1-acc-text {
-                            margin-top: -16x;
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            font-size: 12px;
+                            color: rgb(110, 110, 110);
                         }
         
                     }     
@@ -95,11 +106,11 @@ $bannerIconSize: 40px;
                     .purplecheckmark {
                         .purpcircle {
                             border-radius: 50%;
-                            background-color: rgb(255, 166, 0);
-                            width: 45px;
-                            height: 45px;
+                            background-color: rgb(162, 0, 255);
+                            width: 25px;
+                            height: 25px;
                             border-style: solid;
-                            border-color: white;
+                            border-color: rgb(162, 0, 255);
                         }
                     }
                 } 

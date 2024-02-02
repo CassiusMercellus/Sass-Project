@@ -554,12 +554,19 @@
 .row3 .r3-friend .r3b1-account .r3b1-account-panel {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: #cfc0f0;
+  border-radius: 25px;
+  width: 350px;
+  padding: 0px 10px;
 }
 .row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theleft {
   display: flex;
 }
 .row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theleft .r3b1-pfp {
+  display: flex;
   margin-right: 20px;
+  align-items: center;
 }
 .row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theleft .r3b1-pfp .imageicon {
   border-radius: 50%;
@@ -567,18 +574,27 @@
   width: 45px;
   height: 45px;
   border-style: solid;
-  border-color: white;
+  border-color: rgb(255, 166, 0);
+}
+.row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theleft .r3b1-acc-words {
+  margin: 0px;
+}
+.row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theleft .r3b1-acc-words .r3b1-acc-header {
+  margin: -16x 0px;
 }
 .row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theleft .r3b1-acc-words .r3b1-acc-text {
-  margin-top: -16x;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: rgb(110, 110, 110);
 }
 .row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theright .purplecheckmark .purpcircle {
   border-radius: 50%;
-  background-color: rgb(255, 166, 0);
-  width: 45px;
-  height: 45px;
+  background-color: rgb(162, 0, 255);
+  width: 25px;
+  height: 25px;
   border-style: solid;
-  border-color: white;
+  border-color: rgb(162, 0, 255);
 }
 .row3 .recentfriend .rf-wording {
   display: flex;
