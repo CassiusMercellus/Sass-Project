@@ -481,6 +481,76 @@
   justify-content: space-between;
   align-items: center;
 }
+.row3 .r3-friend .r3b1-account .recentfriend .rf-wording {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+.row3 .r3-friend .r3b1-account .recentfriend .rf-wording .rf-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+.row3 .r3-friend .r3b1-account .recentfriend .rf-wording .seemore {
+  margin-top: 25px;
+  font-size: 14px;
+  color: rgb(173, 38, 252);
+}
+.row3 .r3-friend .r3b1-account .recentfriend .friendpfps {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.row3 .r3-friend .r3b1-account .recentfriend .friendpfps .account1 {
+  border-radius: 50%;
+  background-color: rgb(0, 183, 255);
+  width: 45px;
+  height: 45px;
+  border-style: solid;
+  border-color: white;
+}
+.row3 .r3-friend .r3b1-account .recentfriend .friendpfps .account2 {
+  border-radius: 50%;
+  background-color: rgb(255, 166, 0);
+  width: 45px;
+  height: 45px;
+  border-style: solid;
+  border-color: white;
+}
+.row3 .r3-friend .r3b1-account .recentfriend .friendpfps .account3 {
+  border-radius: 50%;
+  background-color: rgb(0, 255, 136);
+  width: 45px;
+  height: 45px;
+  border-style: solid;
+  border-color: white;
+}
+.row3 .r3-friend .r3b1-account .recentfriend .friendpfps .account4 {
+  border-radius: 50%;
+  background-color: rgb(0, 217, 255);
+  width: 45px;
+  height: 45px;
+  border-style: solid;
+  border-color: white;
+}
+.row3 .r3-friend .r3b1-account .recentfriend .friendpfps .account5 {
+  border-radius: 50%;
+  background-color: rgb(234, 0, 255);
+  width: 45px;
+  height: 45px;
+  border-style: solid;
+  border-color: white;
+}
+.row3 .r3-friend .r3b1-account .recentfriend .friendpfps .account6 {
+  border-radius: 50%;
+  background-color: rgb(255, 0, 0);
+  width: 45px;
+  height: 45px;
+  border-style: solid;
+  border-color: white;
+}
+
 .r3-friend, .r3b2-spending, .r3-transaction {
   background-color: #ECECF0;
   display: flex;
