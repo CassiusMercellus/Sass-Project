@@ -543,7 +543,7 @@
   margin-top: 20px;
 }
 .row3 .r3-friend .r3b1-top .r3b1-icon {
-  background-color: #6e6e6e;
+  background-color: #6E6E6E;
   border-radius: 50%;
   width: 5px;
   height: 5px;
@@ -555,7 +555,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #cfc0f0;
+  background-color: #CFC0F0;
   border-radius: 25px;
   width: 350px;
   padding: 0px 10px;
@@ -615,7 +615,7 @@
   align-content: center;
   justify-content: center;
   margin-top: -10px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .row3 .recentfriend .friendpfps .account1 {
   border-radius: 50%;
@@ -681,21 +681,48 @@
 }
 
 .r3b2-spending {
-  background-color: #ECECF0;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: space-between;
-  align-items: center;
-  width: 25%;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
-  margin-top: 15px;
+  /**
+  & .r3b2-progress progress {
+      align-content: center;
+      margin: 2% -4%;
+      width: 350px;
+      color: purple;
+      background-color: purple;
+      border-radius: 15px;
+  }
+  progress[value] {
+      --w: 100%; 
+      --color:linear-gradient(90deg,#FF61FF,#3B05FF) 0/var(--w);
+      --background: lightgrey;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border: none;
+      width: var(--w);
+      margin: 0 10px;
+      border-radius: 10em;
+      background: var(--background);
+    }
+    progress[value]::-webkit-progress-bar {
+      border-radius: 10em;
+      background: var(--background);
+    }
+    progress[value]::-webkit-progress-value {
+      border-radius: 10em;
+      background: var(--color);
+    }
+    progress[value]::-moz-progress-bar {
+      border-radius: 10em;
+      background: var(--color);
+    }
+
+    **/
 }
 .r3b2-spending .r3b2-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 10px;
+  margin-left: 15px;
 }
 .r3b2-spending .r3b2-top .r3b2-words {
   flex: 1;
@@ -714,7 +741,7 @@
   margin-top: 20px;
 }
 .r3b2-spending .r3b2-top .r3b2-icon {
-  background-color: #6e6e6e;
+  background-color: #6E6E6E;
   border-radius: 50%;
   width: 5px;
   height: 5px;
@@ -723,95 +750,101 @@
   margin-top: 5px;
 }
 .r3b2-spending .r3b2-progress {
+  width: 100%;
+  padding: 0px 20px;
+}
+.r3b2-spending .r3b2-progress .r3b2-progress progress {
+  align-content: center;
+  margin: 2% -4%;
+  width: 350px;
+  color: purple;
+  background-color: purple;
+  border-radius: 15px;
+}
+.r3b2-spending .r3b2-progress progress[value] {
+  --w: 100%;
+  --color:linear-gradient(90deg,#FF61FF,#3B05FF) 0/var(--w);
+  --background: lightgrey;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  width: var(--w);
+  margin: 0px;
+  border-radius: 10em;
+  background: var(--background);
+}
+.r3b2-spending .r3b2-progress progress[value]::-webkit-progress-bar {
+  border-radius: 10em;
+  background: var(--background);
+}
+.r3b2-spending .r3b2-progress progress[value]::-webkit-progress-value {
+  border-radius: 10em;
+  background: var(--color);
+}
+.r3b2-spending .r3b2-progress progress[value]::-moz-progress-bar {
+  border-radius: 10em;
+  background: var(--color);
+}
+.r3b2-spending .r3b2-progress .r3b2-progress1 .progress-r3b2 {
+  width: 100%;
+}
+.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p1-text {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  margin: 10px;
-}
-.r3b2-spending .r3b2-progress .r3b2-progress1,
-.r3b2-spending .r3b2-progress .r3b2-progress2,
-.r3b2-spending .r3b2-progress .r3b2-progress3 {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-.r3b2-spending .r3b2-progress .r3b2-progress1 progress,
-.r3b2-spending .r3b2-progress .r3b2-progress2 progress,
-.r3b2-spending .r3b2-progress .r3b2-progress3 progress {
-  width: 70%;
-  margin-right: 10px;
-}
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p1-text,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p2-text,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p3-text,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p1-text,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p2-text,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p3-text,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p1-text,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p2-text,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p3-text {
-  flex: 1;
-}
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p1-text .progressText-r3b2p1,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p1-text .progressText-r3b2p2,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p1-text .progressText-r3b2p3,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p2-text .progressText-r3b2p1,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p2-text .progressText-r3b2p2,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p2-text .progressText-r3b2p3,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p3-text .progressText-r3b2p1,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p3-text .progressText-r3b2p2,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p3-text .progressText-r3b2p3,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p1-text .progressText-r3b2p1,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p1-text .progressText-r3b2p2,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p1-text .progressText-r3b2p3,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p2-text .progressText-r3b2p1,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p2-text .progressText-r3b2p2,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p2-text .progressText-r3b2p3,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p3-text .progressText-r3b2p1,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p3-text .progressText-r3b2p2,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p3-text .progressText-r3b2p3,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p1-text .progressText-r3b2p1,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p1-text .progressText-r3b2p2,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p1-text .progressText-r3b2p3,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p2-text .progressText-r3b2p1,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p2-text .progressText-r3b2p2,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p2-text .progressText-r3b2p3,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p3-text .progressText-r3b2p1,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p3-text .progressText-r3b2p2,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p3-text .progressText-r3b2p3 {
-  font-weight: bold;
-}
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p1-text .r3b2p1-value,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p1-text .r3b2p2-value,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p1-text .r3b2p3-value,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p2-text .r3b2p1-value,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p2-text .r3b2p2-value,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p2-text .r3b2p3-value,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p3-text .r3b2p1-value,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p3-text .r3b2p2-value,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p3-text .r3b2p3-value,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p1-text .r3b2p1-value,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p1-text .r3b2p2-value,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p1-text .r3b2p3-value,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p2-text .r3b2p1-value,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p2-text .r3b2p2-value,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p2-text .r3b2p3-value,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p3-text .r3b2p1-value,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p3-text .r3b2p2-value,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p3-text .r3b2p3-value,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p1-text .r3b2p1-value,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p1-text .r3b2p2-value,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p1-text .r3b2p3-value,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p2-text .r3b2p1-value,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p2-text .r3b2p2-value,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p2-text .r3b2p3-value,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p3-text .r3b2p1-value,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p3-text .r3b2p2-value,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p3-text .r3b2p3-value {
   color: gray;
+  font-size: 14px;
+  margin-top: -5px;
+}
+.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p1-text .progressText-r3b2p2 {
+  font-size: 14px;
+  margin-top: -5px;
+}
+.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p1-text .r3b2p1-value {
+  color: black;
+  font-size: 16px;
+}
+.r3b2-spending .r3b2-progress .r3b2-progress2 .progress-r3b2 {
+  width: 100%;
+}
+.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p2-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  font-size: 14px;
+  margin-top: -5px;
+}
+.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p2-text .progressText-r3b2p2 {
+  font-size: 14px;
+  margin-top: -5px;
+}
+.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p2-text .r3b2p2-value {
+  color: black;
+  font-size: 16px;
+}
+.r3b2-spending .r3b2-progress .r3b2-progress3 .progress-r3b2 {
+  width: 100%;
+}
+.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p3-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  font-size: 14px;
+  margin-top: -5px;
+}
+.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p3-text .progressText-r3b2p2 {
+  font-size: 14px;
+  margin-top: -5px;
+}
+.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p3-text .r3b2p3-value {
+  color: black;
+  font-size: 16px;
 }
 
-.r3-transaction {
+.row3 .r3-transaction {
   width: 45%;
 }
 

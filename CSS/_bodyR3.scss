@@ -3,15 +3,13 @@ $mypink: rgb(229, 106, 126);
 $row1width: 20%;
 $row1height: 100px;
 $bannerIconSize: 40px;
-
 .row3 {
-    display: flex; 
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-between;
     align-items: center;
-
     .r3-friend {
         background-color: #ECECF0;
         display: flex;
@@ -23,55 +21,45 @@ $bannerIconSize: 40px;
         border-radius: 20px;
         box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
         margin-top: 15px;
-        
         .r3b1-top {
             display: flex;
             justify-content: space-evenly;
             padding: 10px;
-    
             .r3b1-words {
                 flex: 1;
-    
                 .r3b1-header {
                     font-size: 20px;
                     font-weight: bold;
                 }
-    
                 .r3b1-text {
                     color: gray;
                     margin-right: 30px;
                 }
             }
-    
             .r3b1threedots {
                 display: flex;
                 flex-direction: column;
                 margin-top: 20px;
             }
-
             .r3b1-icon {
-                background-color: #6e6e6e;
+                background-color: #6E6E6E;
                 border-radius: 50%;
                 width: 5px;
                 height: 5px;
                 padding: -2px;
                 cursor: pointer;
-                
                 margin-top: 5px;
-
             }
         }
-
         .r3b1-account {
             .r3b1-account-panel {
                 display:flex;
                 justify-content: space-between;
                 align-items: center;
-                background-color: #cfc0f0;
+                background-color: #CFC0F0;
                 border-radius: 25px;
                 width: 350px;
                 padding: 0px 10px;
-
                 .r3b1-theleft {
                     display:flex;
                     .r3b1-pfp {
@@ -98,10 +86,8 @@ $bannerIconSize: 40px;
                             font-size: 12px;
                             color: rgb(110, 110, 110);
                         }
-        
-                    }     
+                    }
                 }
-
                 .r3b1-theright {
                     .purplecheckmark {
                         .purpcircle {
@@ -113,18 +99,16 @@ $bannerIconSize: 40px;
                             border-color: rgb(162, 0, 255);
                         }
                     }
-                } 
-                
+                }
             }
                 }
-
             }
-            
             .recentfriend {
                 .rf-wording {
                     display:flex;
                     justify-content: space-between;
                     padding: 0px 50px;
+                    
                     .rf-text {
                         font-size: 18px;
                         font-weight: 600;
@@ -140,7 +124,7 @@ $bannerIconSize: 40px;
                     align-content: center;
                     justify-content: center;
                     margin-top: -10px;
-                    margin-bottom: 10px;
+                    margin-bottom: 30px;
                     .account1 {
                         border-radius: 50%;
                         background-color: rgb(0, 183, 255);
@@ -192,7 +176,6 @@ $bannerIconSize: 40px;
                 }
             }
         }
-
     .r3-friend, .r3b2-spending, .r3-transaction {
         background-color: #ECECF0;
         display: flex;
@@ -208,95 +191,180 @@ $bannerIconSize: 40px;
         }
 
         .r3b2-spending {
-            background-color: #ECECF0;
-            display: flex;
-            flex-direction: column;
-            align-content: center;
-            justify-content: space-between;
-            align-items: center;
-            width: 25%;
-            border-radius: 20px;
-            box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
-            margin-top: 15px;
-        
-            .r3b2-top {
+            & .r3b2-top {
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-evenly;
                 padding: 10px;
-        
-                .r3b2-words {
+                margin-left:15px;
+                & .r3b2-words {
                     flex: 1;
-        
-                    .r3b2-header {
+                    & .r3b2-header {
                         font-size: 20px;
                         font-weight: bold;
                     }
-        
-                    .r3b2-text {
+                    & .r3b2-text {
                         color: gray;
                         margin-right: 30px;
                     }
                 }
-        
-                .r3b2threedots {
+                & .r3b2threedots {
                     display: flex;
                     flex-direction: column;
                     margin-top: 20px;
                 }
-
-                .r3b2-icon {
-                    background-color: #6e6e6e;
+                & .r3b2-icon {
+                    background-color: #6E6E6E;
                     border-radius: 50%;
                     width: 5px;
                     height: 5px;
                     padding: -2px;
                     cursor: pointer;
-                    
                     margin-top: 5px;
-
                 }
             }
-        
+            // Progress Begins
             .r3b2-progress {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                margin: 10px;
-        
-                .r3b2-progress1,
-                .r3b2-progress2,
-                .r3b2-progress3 {
-                    display: flex;
-                    align-items: center;
-                    margin-bottom: 10px;
-        
-                    progress {
-                        width: 70%;
-                        margin-right: 10px;
+                width: 100%;
+                padding: 0px 20px;
+
+                // Trial run
+                & .r3b2-progress progress {
+                    align-content: center;
+                    margin: 2% -4%;
+                    width: 350px;
+                    color: purple;
+                    background-color: purple;
+                    border-radius: 15px;
+                }
+                progress[value] {
+                    --w: 100%; 
+                    --color:linear-gradient(90deg,#FF61FF,#3B05FF) 0/var(--w);
+                    --background: lightgrey;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    appearance: none;
+                    border: none;
+                    width: var(--w);
+                    margin: 0px;
+                    border-radius: 10em;
+                    background: var(--background);
+                  }
+                  progress[value]::-webkit-progress-bar {
+                    border-radius: 10em;
+                    background: var(--background);
+                  }
+                  progress[value]::-webkit-progress-value {
+                    border-radius: 10em;
+                    background: var(--color);
+                  }
+                  progress[value]::-moz-progress-bar {
+                    border-radius: 10em;
+                    background: var(--color);
+                  }
+
+                // TRial RUN
+                .r3b2-progress1 {
+                    .progress-r3b2 {
+                        width: 100%;
                     }
-        
-                    .r3b2p1-text,
-                    .r3b2p2-text,
-                    .r3b2p3-text {
-                        flex: 1;
-        
-                        .progressText-r3b2p1,
-                        .progressText-r3b2p2,
-                        .progressText-r3b2p3 {
-                            font-weight: bold;
+                    .r3b2p1-text {
+                        display:flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        color: gray;
+                        font-size: 14px;
+                        margin-top: -5px;
+                        .progressText-r3b2p2 {
+                            font-size: 14px;
+                            margin-top: -5px;
                         }
-        
-                        .r3b2p1-value,
-                        .r3b2p2-value,
+                        .r3b2p1-value {
+                            color: black;
+                            font-size: 16px;
+                        }
+                    }
+                }
+                .r3b2-progress2 {
+                    .progress-r3b2 {
+                        width: 100%;
+                    }
+                    .r3b2p2-text {
+                        display:flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        color: gray;
+                        font-size: 14px;
+                        margin-top: -5px;
+                        .progressText-r3b2p2 {
+                            font-size: 14px;
+                            margin-top: -5px;
+                        }
+                        .r3b2p2-value {
+                            color: black;
+                            font-size: 16px;
+                        }
+                    }
+                }
+                .r3b2-progress3 {
+                    .progress-r3b2 {
+                        width: 100%;
+                    }
+                    .r3b2p3-text {
+                        display:flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        color: gray;
+                        font-size: 14px;
+                        margin-top: -5px;
+                        .progressText-r3b2p2 {
+                            font-size: 14px;
+                            margin-top: -5px;
+                        }
                         .r3b2p3-value {
-                            color: gray;
+                            color: black;
+                            font-size: 16px;
                         }
                     }
                 }
             }
-        }
+            /**
+            & .r3b2-progress progress {
+                align-content: center;
+                margin: 2% -4%;
+                width: 350px;
+                color: purple;
+                background-color: purple;
+                border-radius: 15px;
+            }
+            progress[value] {
+                --w: 100%; 
+                --color:linear-gradient(90deg,#FF61FF,#3B05FF) 0/var(--w);
+                --background: lightgrey;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                border: none;
+                width: var(--w);
+                margin: 0 10px;
+                border-radius: 10em;
+                background: var(--background);
+              }
+              progress[value]::-webkit-progress-bar {
+                border-radius: 10em;
+                background: var(--background);
+              }
+              progress[value]::-webkit-progress-value {
+                border-radius: 10em;
+                background: var(--color);
+              }
+              progress[value]::-moz-progress-bar {
+                border-radius: 10em;
+                background: var(--color);
+              }
         
-
-    .r3-transaction {
+              **/
+        
+    }
+    .row3 .r3-transaction {
         width: 45%;
     }
