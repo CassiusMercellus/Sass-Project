@@ -720,6 +720,32 @@
   margin-right: 10px;
   background: linear-gradient(to right, #ffd700, #ff8c00);
 }
+.row3 .r3b2-spending progress[value] {
+  --w: 100%; /* the width*/
+  --color: /* the progress color */
+    linear-gradient(90deg,#ff61ff,#3b05ff) 0/var(--w);
+  --background: lightgrey; /* the background color */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  width: var(--w);
+  margin: 0 10px;
+  border-radius: 10em;
+  background: var(--background);
+}
+.row3 .r3b2-spending progress[value]::-webkit-progress-bar {
+  border-radius: 10em;
+  background: var(--background);
+}
+.row3 .r3b2-spending progress[value]::-webkit-progress-value {
+  border-radius: 10em;
+  background: var(--color);
+}
+.row3 .r3b2-spending progress[value]::-moz-progress-bar {
+  border-radius: 10em;
+  background: var(--color);
+}
 
 .row3 .r3-transaction {
   width: 45%;
