@@ -5,67 +5,49 @@ $row1height: 100px;
 $bannerIconSize: 40px;
 
 .row3 {
-    display: flex;
+    display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-between;
     align-items: center;
-}
 
-.row3 .r3-friend,
-.row3 .r3b2-spending,
-.row3 .r3-transaction {
-    background-color: #ECECF0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
-    width: 25%;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
-    margin-top: 15px;
-}
-
-.row3 .r3-friend {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
-    width: 25%;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
-    margin-top: 15px;
-}
-
-.row3 .r3-friend .r3b1-top {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 10px;
-}
-
-.row3 .r3-friend .r3b1-top .r3b1-words {
-    flex: 1;
-}
-
-.row3 .r3-friend .r3b1-top .r3b1-words .r3b1-header {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.row3 .r3-friend .r3b1-top .r3b1-words .r3b1-text {
-    color: gray;
-    margin-right: 30px;
-}
-
-.row3 .r3-friend .r3b1-top .r3b1threedots {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-}
+    .r3-friend {
+        background-color: #ECECF0;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        width: 25%;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
+        margin-top: 15px;
+        
+        .r3b1-top {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+    
+            .r3b1-words {
+                flex: 1;
+    
+                .r3b1-header {
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+    
+                .r3b1-text {
+                    color: gray;
+                    margin-right: 30px;
+                }
+            }
+    
+            .r3b1threedots {
+                display: flex;
+                flex-direction: column;
+                margin-top: 20px;
+            }
 
             .r3b1-icon {
                 background-color: #6e6e6e;
@@ -84,7 +66,6 @@ $bannerIconSize: 40px;
             .r3b1-account-panel {
                 display:flex;
                 justify-content: space-between;
-                align-items: center;
                 .r3b1-theleft {
                     display:flex;
                     .r3b1-pfp {
@@ -198,8 +179,6 @@ $bannerIconSize: 40px;
                 }
             }
         }
-    }
-    }
 
     .r3-friend, .r3b2-spending, .r3-transaction {
         background-color: #ECECF0;
@@ -252,26 +231,59 @@ $bannerIconSize: 40px;
                     margin-top: 20px;
                 }
 
-.row3 .r3b2-spending .r3b2-top .r3b2-icon {
-    background-color: #6e6e6e;
-    border-radius: 50%;
-    width: 5px;
-    height: 5px;
-    padding: -2px;
-    cursor: pointer;
-    margin-top: 5px;
-}
+                .r3b2-icon {
+                    background-color: #6e6e6e;
+                    border-radius: 50%;
+                    width: 5px;
+                    height: 5px;
+                    padding: -2px;
+                    cursor: pointer;
+                    
+                    margin-top: 5px;
 
+                }
+            }
+        
+            .r3b2-progress {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 10px;
+        
+                .r3b2-progress1,
+                .r3b2-progress2,
+                .r3b2-progress3 {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+        
+                    progress {
+                        width: 70%;
+                        margin-right: 10px;
+                    }
+        
+                    .r3b2p1-text,
+                    .r3b2p2-text,
+                    .r3b2p3-text {
+                        flex: 1;
+        
+                        .progressText-r3b2p1,
+                        .progressText-r3b2p2,
+                        .progressText-r3b2p3 {
+                            font-weight: bold;
+                        }
+        
+                        .r3b2p1-value,
+                        .r3b2p2-value,
+                        .r3b2p3-value {
+                            color: gray;
+                        }
+                    }
+                }
+            }
+        }
+        
 
-
-.progress-r3b2 {
-    width: 50px;
-}
-
-
-
-
-
-.row3 .r3-transaction {
-    width: 45%;
-}
+    .r3-transaction {
+        width: 45%;
+    }

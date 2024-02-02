@@ -554,21 +554,9 @@
 .row3 .r3-friend .r3b1-account .r3b1-account-panel {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theleft {
   display: flex;
-  /**
-  .r3b1-acc-words {
-      .r3b1-acc-header {
-
-      }
-      .r3b1-acc-text {
-
-      }
-
-  }     
-  **/
 }
 .row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theleft .r3b1-pfp .imageicon {
   border-radius: 50%;
