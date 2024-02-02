@@ -481,6 +481,75 @@
   justify-content: space-between;
   align-items: center;
 }
+.row3 .r3-friend {
+  background-color: #ECECF0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
+  margin-top: 15px;
+}
+.row3 .r3-friend .r3b1-top {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.row3 .r3-friend .r3b1-top .r3b1-words {
+  flex: 1;
+}
+.row3 .r3-friend .r3b1-top .r3b1-words .r3b1-header {
+  font-size: 20px;
+  font-weight: bold;
+}
+.row3 .r3-friend .r3b1-top .r3b1-words .r3b1-text {
+  color: gray;
+  margin-right: 30px;
+}
+.row3 .r3-friend .r3b1-top .r3b1threedots {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.row3 .r3-friend .r3b1-top .r3b1-icon {
+  background-color: #6e6e6e;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  padding: -2px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.row3 .r3-friend .r3b1-account .r3b1-account-panel {
+  display: flex;
+}
+.row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-pfp .imageicon {
+  border-radius: 50%;
+  background-color: rgb(255, 166, 0);
+  width: 45px;
+  height: 45px;
+  border-style: solid;
+  border-color: white;
+}
+.row3 .r3-friend .r3b1-account .r3b1-account-panel .purplecheckmark .purpcircle .r3b1-pfp .imageicon {
+  border-radius: 50%;
+  background-color: rgb(255, 166, 0);
+  width: 45px;
+  height: 45px;
+  border-style: solid;
+  border-color: white;
+}
+.row3 .r3-friend .r3b1-account .r3b1-account-panel .purplecheckmark .purpcircle .purplecheckmark .purpcircle {
+  border-radius: 50%;
+  background-color: rgb(255, 166, 0);
+  width: 45px;
+  height: 45px;
+  border-style: solid;
+  border-color: white;
+}
 .row3 .r3-friend .r3b1-account .recentfriend .rf-wording {
   display: flex;
   justify-content: space-between;
@@ -599,11 +668,11 @@
   margin-top: 20px;
 }
 .r3b2-spending .r3b2-top .r3b2-icon {
-  background-color: #b0b0b0;
+  background-color: #6e6e6e;
   border-radius: 50%;
   width: 5px;
   height: 5px;
-  padding: 2px;
+  padding: -2px;
   cursor: pointer;
   margin-top: 5px;
 }
