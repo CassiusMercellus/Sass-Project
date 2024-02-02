@@ -716,9 +716,12 @@
   width: 50px;
 }
 .row3 .r3b2-spending .r3b2-progress progress {
-  width: 70%;
-  margin-right: 10px;
-  background: linear-gradient(to right, #ffd700, #ff8c00);
+  align-content: center;
+  margin: 2% -4%;
+  width: 350px;
+  color: purple;
+  background-color: purple;
+  border-radius: 15px;
 }
 .row3 .r3b2-spending progress[value] {
   --w: 100%; /* the width*/
