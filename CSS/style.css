@@ -509,153 +509,10 @@
   justify-content: space-between;
   align-items: center;
 }
-.row3 .r3-friend {
-  background-color: #ECECF0;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: space-between;
-  align-items: center;
-  width: 25%;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
-  margin-top: 15px;
-}
-.row3 .r3-friend .r3b1-top {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 10px;
-}
-.row3 .r3-friend .r3b1-top .r3b1-words {
-  flex: 1;
-}
-.row3 .r3-friend .r3b1-top .r3b1-words .r3b1-header {
-  font-size: 20px;
-  font-weight: bold;
-}
-.row3 .r3-friend .r3b1-top .r3b1-words .r3b1-text {
-  color: gray;
-  margin-right: 30px;
-}
-.row3 .r3-friend .r3b1-top .r3b1threedots {
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-}
-.row3 .r3-friend .r3b1-top .r3b1-icon {
-  background-color: #6e6e6e;
-  border-radius: 50%;
-  width: 5px;
-  height: 5px;
-  padding: -2px;
-  cursor: pointer;
-  margin-top: 5px;
-}
-.row3 .r3-friend .r3b1-account .r3b1-account-panel {
-  display: flex;
-  justify-content: space-between;
-}
-.row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theleft {
-  display: flex;
-  /**
-  .r3b1-acc-words {
-      .r3b1-acc-header {
 
-      }
-      .r3b1-acc-text {
-
-      }
-
-  }     
-  **/
-}
-.row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theleft .r3b1-pfp .imageicon {
-  border-radius: 50%;
-  background-color: rgb(255, 166, 0);
-  width: 45px;
-  height: 45px;
-  border-style: solid;
-  border-color: white;
-}
-.row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theright .purplecheckmark .purpcircle {
-  border-radius: 50%;
-  background-color: rgb(255, 166, 0);
-  width: 45px;
-  height: 45px;
-  border-style: solid;
-  border-color: white;
-}
-.row3 .recentfriend .rf-wording {
-  display: flex;
-  justify-content: space-between;
-  padding: 0px 50px;
-}
-.row3 .recentfriend .rf-wording .rf-text {
-  font-size: 18px;
-  font-weight: 600;
-}
-.row3 .recentfriend .rf-wording .seemore {
-  margin-top: 25px;
-  font-size: 14px;
-  color: rgb(173, 38, 252);
-}
-.row3 .recentfriend .friendpfps {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  margin-top: -10px;
-  margin-bottom: 10px;
-}
-.row3 .recentfriend .friendpfps .account1 {
-  border-radius: 50%;
-  background-color: rgb(0, 183, 255);
-  width: 45px;
-  height: 45px;
-  border-style: solid;
-  border-color: white;
-}
-.row3 .recentfriend .friendpfps .account2 {
-  border-radius: 50%;
-  background-color: rgb(255, 166, 0);
-  width: 45px;
-  height: 45px;
-  border-style: solid;
-  border-color: white;
-}
-.row3 .recentfriend .friendpfps .account3 {
-  border-radius: 50%;
-  background-color: rgb(0, 255, 136);
-  width: 45px;
-  height: 45px;
-  border-style: solid;
-  border-color: white;
-}
-.row3 .recentfriend .friendpfps .account4 {
-  border-radius: 50%;
-  background-color: rgb(0, 217, 255);
-  width: 45px;
-  height: 45px;
-  border-style: solid;
-  border-color: white;
-}
-.row3 .recentfriend .friendpfps .account5 {
-  border-radius: 50%;
-  background-color: rgb(234, 0, 255);
-  width: 45px;
-  height: 45px;
-  border-style: solid;
-  border-color: white;
-}
-.row3 .recentfriend .friendpfps .account6 {
-  border-radius: 50%;
-  background-color: rgb(255, 0, 0);
-  width: 45px;
-  height: 45px;
-  border-style: solid;
-  border-color: white;
-}
-
-.r3-friend, .r3b2-spending, .r3-transaction {
+.row3 .r3-friend,
+.row3 .r3b2-spending,
+.row3 .r3-transaction {
   background-color: #ECECF0;
   display: flex;
   flex-direction: row;
@@ -668,41 +525,45 @@
   box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
   margin-top: 15px;
 }
-
-.r3b2-spending {
-  background-color: #ECECF0;
-  display: flex;
+.row3 .r3-friend.r3-friend,
+.row3 .r3b2-spending.r3-friend,
+.row3 .r3-transaction.r3-friend {
   flex-direction: column;
-  align-content: center;
-  justify-content: space-between;
-  align-items: center;
-  width: 25%;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px 0 rgb(214, 214, 214);
-  margin-top: 15px;
 }
-.r3b2-spending .r3b2-top {
+.row3 .r3-friend .r3b1-top,
+.row3 .r3b2-spending .r3b1-top,
+.row3 .r3-transaction .r3b1-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 10px;
 }
-.r3b2-spending .r3b2-top .r3b2-words {
+.row3 .r3-friend .r3b1-top .r3b1-words,
+.row3 .r3b2-spending .r3b1-top .r3b1-words,
+.row3 .r3-transaction .r3b1-top .r3b1-words {
   flex: 1;
 }
-.r3b2-spending .r3b2-top .r3b2-words .r3b2-header {
+.row3 .r3-friend .r3b1-top .r3b1-words .r3b1-header,
+.row3 .r3b2-spending .r3b1-top .r3b1-words .r3b1-header,
+.row3 .r3-transaction .r3b1-top .r3b1-words .r3b1-header {
   font-size: 20px;
   font-weight: bold;
 }
-.r3b2-spending .r3b2-top .r3b2-words .r3b2-text {
+.row3 .r3-friend .r3b1-top .r3b1-words .r3b1-text,
+.row3 .r3b2-spending .r3b1-top .r3b1-words .r3b1-text,
+.row3 .r3-transaction .r3b1-top .r3b1-words .r3b1-text {
   color: gray;
   margin-right: 30px;
 }
-.r3b2-spending .r3b2-top .r3b2threedots {
+.row3 .r3-friend .r3b1-top .r3b1threedots,
+.row3 .r3b2-spending .r3b1-top .r3b1threedots,
+.row3 .r3-transaction .r3b1-top .r3b1threedots {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
 }
-.r3b2-spending .r3b2-top .r3b2-icon {
+.row3 .r3-friend .r3b1-top .r3b1-icon,
+.row3 .r3b2-spending .r3b1-top .r3b1-icon,
+.row3 .r3-transaction .r3b1-top .r3b1-icon {
   background-color: #6e6e6e;
   border-radius: 50%;
   width: 5px;
@@ -711,96 +572,156 @@
   cursor: pointer;
   margin-top: 5px;
 }
-.r3b2-spending .r3b2-progress {
+.row3 .r3-friend .r3b1-account .r3b1-account-panel,
+.row3 .r3b2-spending .r3b1-account .r3b1-account-panel,
+.row3 .r3-transaction .r3b1-account .r3b1-account-panel {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px;
+  justify-content: space-between;
 }
-.r3b2-spending .r3b2-progress .r3b2-progress1,
-.r3b2-spending .r3b2-progress .r3b2-progress2,
-.r3b2-spending .r3b2-progress .r3b2-progress3 {
+.row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theleft,
+.row3 .r3b2-spending .r3b1-account .r3b1-account-panel .r3b1-theleft,
+.row3 .r3-transaction .r3b1-account .r3b1-account-panel .r3b1-theleft {
   display: flex;
-  align-items: center;
+}
+.row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theleft .r3b1-pfp .imageicon,
+.row3 .r3b2-spending .r3b1-account .r3b1-account-panel .r3b1-theleft .r3b1-pfp .imageicon,
+.row3 .r3-transaction .r3b1-account .r3b1-account-panel .r3b1-theleft .r3b1-pfp .imageicon {
+  border-radius: 50%;
+  background-color: rgb(255, 166, 0);
+  width: 45px;
+  height: 45px;
+  border-style: solid;
+  border-color: white;
+}
+.row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theright .purplecheckmark .purpcircle,
+.row3 .r3b2-spending .r3b1-account .r3b1-account-panel .r3b1-theright .purplecheckmark .purpcircle,
+.row3 .r3-transaction .r3b1-account .r3b1-account-panel .r3b1-theright .purplecheckmark .purpcircle {
+  border-radius: 50%;
+  background-color: rgb(255, 166, 0);
+  width: 45px;
+  height: 45px;
+  border-style: solid;
+  border-color: white;
+}
+.row3 .r3-friend .recentfriend .rf-wording,
+.row3 .r3b2-spending .recentfriend .rf-wording,
+.row3 .r3-transaction .recentfriend .rf-wording {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+.row3 .r3-friend .recentfriend .rf-wording .rf-text,
+.row3 .r3b2-spending .recentfriend .rf-wording .rf-text,
+.row3 .r3-transaction .recentfriend .rf-wording .rf-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+.row3 .r3-friend .recentfriend .rf-wording .seemore,
+.row3 .r3b2-spending .recentfriend .rf-wording .seemore,
+.row3 .r3-transaction .recentfriend .rf-wording .seemore {
+  margin-top: 25px;
+  font-size: 14px;
+  color: rgb(173, 38, 252);
+}
+.row3 .r3-friend .recentfriend .friendpfps,
+.row3 .r3b2-spending .recentfriend .friendpfps,
+.row3 .r3-transaction .recentfriend .friendpfps {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: -10px;
   margin-bottom: 10px;
 }
-.r3b2-spending .r3b2-progress .r3b2-progress1 progress,
-.r3b2-spending .r3b2-progress .r3b2-progress2 progress,
-.r3b2-spending .r3b2-progress .r3b2-progress3 progress {
-  width: 70%;
-  margin-right: 10px;
+.row3 .r3-friend .recentfriend .friendpfps .account1, .row3 .r3-friend .recentfriend .friendpfps .account2, .row3 .r3-friend .recentfriend .friendpfps .account3, .row3 .r3-friend .recentfriend .friendpfps .account4, .row3 .r3-friend .recentfriend .friendpfps .account5, .row3 .r3-friend .recentfriend .friendpfps .account6,
+.row3 .r3b2-spending .recentfriend .friendpfps .account1,
+.row3 .r3b2-spending .recentfriend .friendpfps .account2,
+.row3 .r3b2-spending .recentfriend .friendpfps .account3,
+.row3 .r3b2-spending .recentfriend .friendpfps .account4,
+.row3 .r3b2-spending .recentfriend .friendpfps .account5,
+.row3 .r3b2-spending .recentfriend .friendpfps .account6,
+.row3 .r3-transaction .recentfriend .friendpfps .account1,
+.row3 .r3-transaction .recentfriend .friendpfps .account2,
+.row3 .r3-transaction .recentfriend .friendpfps .account3,
+.row3 .r3-transaction .recentfriend .friendpfps .account4,
+.row3 .r3-transaction .recentfriend .friendpfps .account5,
+.row3 .r3-transaction .recentfriend .friendpfps .account6 {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  border-style: solid;
+  border-color: white;
 }
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p1-text,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p2-text,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p3-text,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p1-text,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p2-text,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p3-text,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p1-text,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p2-text,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p3-text {
-  flex: 1;
+.row3 .r3-friend .recentfriend .friendpfps .account1,
+.row3 .r3b2-spending .recentfriend .friendpfps .account1,
+.row3 .r3-transaction .recentfriend .friendpfps .account1 {
+  background-color: rgb(0, 183, 255);
 }
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p1-text .progressText-r3b2p1,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p1-text .progressText-r3b2p2,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p1-text .progressText-r3b2p3,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p2-text .progressText-r3b2p1,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p2-text .progressText-r3b2p2,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p2-text .progressText-r3b2p3,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p3-text .progressText-r3b2p1,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p3-text .progressText-r3b2p2,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p3-text .progressText-r3b2p3,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p1-text .progressText-r3b2p1,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p1-text .progressText-r3b2p2,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p1-text .progressText-r3b2p3,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p2-text .progressText-r3b2p1,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p2-text .progressText-r3b2p2,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p2-text .progressText-r3b2p3,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p3-text .progressText-r3b2p1,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p3-text .progressText-r3b2p2,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p3-text .progressText-r3b2p3,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p1-text .progressText-r3b2p1,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p1-text .progressText-r3b2p2,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p1-text .progressText-r3b2p3,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p2-text .progressText-r3b2p1,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p2-text .progressText-r3b2p2,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p2-text .progressText-r3b2p3,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p3-text .progressText-r3b2p1,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p3-text .progressText-r3b2p2,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p3-text .progressText-r3b2p3 {
-  font-weight: bold;
+.row3 .r3-friend .recentfriend .friendpfps .account2,
+.row3 .r3b2-spending .recentfriend .friendpfps .account2,
+.row3 .r3-transaction .recentfriend .friendpfps .account2 {
+  background-color: rgb(255, 166, 0);
 }
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p1-text .r3b2p1-value,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p1-text .r3b2p2-value,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p1-text .r3b2p3-value,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p2-text .r3b2p1-value,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p2-text .r3b2p2-value,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p2-text .r3b2p3-value,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p3-text .r3b2p1-value,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p3-text .r3b2p2-value,
-.r3b2-spending .r3b2-progress .r3b2-progress1 .r3b2p3-text .r3b2p3-value,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p1-text .r3b2p1-value,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p1-text .r3b2p2-value,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p1-text .r3b2p3-value,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p2-text .r3b2p1-value,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p2-text .r3b2p2-value,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p2-text .r3b2p3-value,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p3-text .r3b2p1-value,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p3-text .r3b2p2-value,
-.r3b2-spending .r3b2-progress .r3b2-progress2 .r3b2p3-text .r3b2p3-value,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p1-text .r3b2p1-value,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p1-text .r3b2p2-value,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p1-text .r3b2p3-value,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p2-text .r3b2p1-value,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p2-text .r3b2p2-value,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p2-text .r3b2p3-value,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p3-text .r3b2p1-value,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p3-text .r3b2p2-value,
-.r3b2-spending .r3b2-progress .r3b2-progress3 .r3b2p3-text .r3b2p3-value {
-  color: gray;
+.row3 .r3-friend .recentfriend .friendpfps .account3,
+.row3 .r3b2-spending .recentfriend .friendpfps .account3,
+.row3 .r3-transaction .recentfriend .friendpfps .account3 {
+  background-color: rgb(0, 255, 136);
+}
+.row3 .r3-friend .recentfriend .friendpfps .account4,
+.row3 .r3b2-spending .recentfriend .friendpfps .account4,
+.row3 .r3-transaction .recentfriend .friendpfps .account4 {
+  background-color: rgb(0, 217, 255);
+}
+.row3 .r3-friend .recentfriend .friendpfps .account5,
+.row3 .r3b2-spending .recentfriend .friendpfps .account5,
+.row3 .r3-transaction .recentfriend .friendpfps .account5 {
+  background-color: rgb(234, 0, 255);
+}
+.row3 .r3-friend .recentfriend .friendpfps .account6,
+.row3 .r3b2-spending .recentfriend .friendpfps .account6,
+.row3 .r3-transaction .recentfriend .friendpfps .account6 {
+  background-color: rgb(255, 0, 0);
 }
 
-.r3-transaction {
+.row3 .r3b2-spending .r3b2-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.row3 .r3b2-spending .r3b2-top .r3b2-words {
+  flex: 1;
+}
+.row3 .r3b2-spending .r3b2-top .r3b2-words .r3b2-header {
+  font-size: 20px;
+  font-weight: bold;
+}
+.row3 .r3b2-spending .r3b2-top .r3b2-words .r3b2-text {
+  color: gray;
+  margin-right: 30px;
+}
+.row3 .r3b2-spending .r3b2-top .r3b2threedots {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.row3 .r3b2-spending .r3b2-top .r3b2-icon {
+  background-color: #6e6e6e;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  padding: -2px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.row3 .r3b2-spending .progress-r3b2 {
+  width: 50px;
+}
+.row3 .r3b2-spending .r3b2-progress progress {
+  width: 70%;
+  margin-right: 10px;
+  background: linear-gradient(to right, #ffd700, #ff8c00);
+}
+
+.row3 .r3-transaction {
   width: 45%;
 }
 
