@@ -66,9 +66,11 @@ $bannerIconSize: 40px;
             .r3b1-account-panel {
                 display:flex;
                 justify-content: space-between;
+
                 .r3b1-theleft {
                     display:flex;
                     .r3b1-pfp {
+                        margin-right: 20px;
                         .imageicon {
                             border-radius: 50%;
                             background-color: rgb(255, 166, 0);
@@ -80,10 +82,10 @@ $bannerIconSize: 40px;
                     }
                     .r3b1-acc-words {
                         .r3b1-acc-header {
-        
+                            
                         }
                         .r3b1-acc-text {
-        
+                            margin-top: -16x;
                         }
         
                     }     

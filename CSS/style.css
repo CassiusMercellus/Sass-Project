@@ -558,6 +558,9 @@
 .row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theleft {
   display: flex;
 }
+.row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theleft .r3b1-pfp {
+  margin-right: 20px;
+}
 .row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theleft .r3b1-pfp .imageicon {
   border-radius: 50%;
   background-color: rgb(255, 166, 0);
@@ -565,6 +568,9 @@
   height: 45px;
   border-style: solid;
   border-color: white;
+}
+.row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theleft .r3b1-acc-words .r3b1-acc-text {
+  margin-top: -16x;
 }
 .row3 .r3-friend .r3b1-account .r3b1-account-panel .r3b1-theright .purplecheckmark .purpcircle {
   border-radius: 50%;
