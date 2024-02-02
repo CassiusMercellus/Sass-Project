@@ -481,7 +481,6 @@
   justify-content: space-between;
   align-items: center;
 }
-
 .r3-friend, .r3b2-spending, .r3-transaction {
   background-color: #ECECF0;
   display: flex;
