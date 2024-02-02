@@ -1,0 +1,161 @@
+.row1 {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .row1card1 {
+        background-image: linear-gradient(to right, #9331E4, #6007E3);
+        color: white;
+        width: $row1width;
+        height: $row1height;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+
+        }
+        .r1c1-icon {
+            width: $bannerIconSize;
+            height: $bannerIconSize;
+            background-color: #C4AAE4;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            border-radius: 45px;
+        }
+        .r1c1-icon i {
+            color: white;
+            margin-left: 30%;
+            margin-top: 30%;
+            width: 22px;
+            height: 22px;
+        }
+        .cardnumber {
+            margin-left: 16px;
+            margin-bottom: 50px;
+        }
+        .r1text {
+            margin-top: 40px;
+            margin-left: 75px;
+            position: absolute;
+        }
+
+    .row2card2 {
+        background-image: linear-gradient(to right, #9600FD, #E00BFC);
+        color: white;
+        width: $row1width;
+        height: $row1height;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        }
+        .r1c2-icon {
+            width: $bannerIconSize;
+            height: $bannerIconSize;
+            background-color: #C4AAE4;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            border-radius: 45px;
+        }
+        .r1c2-icon i {
+            color: white;
+            margin-left: 30%;
+            margin-top: 30%;
+            width: 22px;
+            height: 22px;
+        }
+        .cardnumber {
+            margin-left: 16px;
+            margin-bottom: 50px;
+        }
+        .r1text {
+            margin-top: 40px;
+            margin-left: 75px;
+            position: absolute;
+        }
+    .row3card3 {
+        background-image: linear-gradient(to right, #9430E5, #5B05E3);
+        color: white;
+        width: $row1width;
+        height: $row1height;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+    
+        }
+        .r1c3-icon {
+            width: $bannerIconSize;
+            height: $bannerIconSize;
+            background-color: #C4AAE4;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            border-radius: 45px;
+        }
+        .r1c3-icon i {
+            color: white;
+            margin-left: 30%;
+            margin-top: 30%;
+            width: 22px;
+            height: 22px;
+        }
+        .cardnumber {
+            margin-left: 16px;
+            margin-bottom: 50px;
+        }
+        .r1text {
+            margin-top: 40px;
+            margin-left: 75px;
+            position: absolute;
+        }
+    .row4card4 {
+        background-image: linear-gradient(to right, #ED04CB, #4734A0);
+        color: white;
+        width: $row1width;
+        height: $row1height;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+    
+        }
+        .r1c4-icon {
+            width: $bannerIconSize;
+            height: $bannerIconSize;
+            background-color: #C4AAE4;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            border-radius: 45px;
+        }
+        .r1c4-icon i {
+            color: white;
+            margin-left: 30%;
+            margin-top: 30%;
+            width: 22px;
+            height: 22px;
+        }
+        .cardnumber {
+            margin-left: 16px;
+            margin-bottom: 50px;
+        }
+        .r1text {
+            margin-top: 40px;
+            margin-left: 75px;
+            position: absolute;
+        }
