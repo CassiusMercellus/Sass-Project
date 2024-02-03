@@ -54,7 +54,7 @@
 }
 
 .row2card2 {
-  background-image: linear-gradient(to right, #9600FD, #E00BFC);
+  background-image: linear-gradient(to right, #9331E4, #6007E3);
   color: white;
   width: 20%;
   height: 100px;
@@ -96,7 +96,7 @@
 }
 
 .row3card3 {
-  background-image: linear-gradient(to right, #9430E5, #5B05E3);
+  background-image: linear-gradient(to right, #9331E4, #6007E3);
   color: white;
   width: 20%;
   height: 100px;
@@ -138,7 +138,7 @@
 }
 
 .row4card4 {
-  background-image: linear-gradient(to right, #ED04CB, #4734A0);
+  background-image: linear-gradient(to right, #9331E4, #6007E3);
   color: white;
   width: 20%;
   height: 100px;
@@ -529,7 +529,7 @@
 .row3 .r3-friend .r3b1-top .r3b1-words {
   flex: 1;
 }
-.row3 .r3-friend .r3b1-top .r3b1-words .r3b1-header {
+.row3 .r3-friend .r3b1-top .r3b1-words .r3b1-header, .row3 .r3-friend .r3b1-top .r3b1-words .r3-transaction .r3b3-top .r3b3-words .r3b3-header, .r3-transaction .r3b3-top .r3b3-words .row3 .r3-friend .r3b1-top .r3b1-words .r3b3-header, .row3 .r3-friend .r3b1-top .r3b1-words .r3b2-spending .r3b2-top .r3b2-words .r3b2-header, .r3b2-spending .r3b2-top .r3b2-words .row3 .r3-friend .r3b1-top .r3b1-words .r3b2-header {
   font-size: 20px;
   font-weight: bold;
 }
@@ -680,44 +680,6 @@
   margin-top: 15px;
 }
 
-.r3b2-spending {
-  /**
-  & .r3b2-progress progress {
-      align-content: center;
-      margin: 2% -4%;
-      width: 350px;
-      color: purple;
-      background-color: purple;
-      border-radius: 15px;
-  }
-  progress[value] {
-      --w: 100%; 
-      --color:linear-gradient(90deg,#FF61FF,#3B05FF) 0/var(--w);
-      --background: lightgrey;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
-      border: none;
-      width: var(--w);
-      margin: 0 10px;
-      border-radius: 10em;
-      background: var(--background);
-    }
-    progress[value]::-webkit-progress-bar {
-      border-radius: 10em;
-      background: var(--background);
-    }
-    progress[value]::-webkit-progress-value {
-      border-radius: 10em;
-      background: var(--color);
-    }
-    progress[value]::-moz-progress-bar {
-      border-radius: 10em;
-      background: var(--color);
-    }
-
-    **/
-}
 .r3b2-spending .r3b2-top {
   display: flex;
   justify-content: space-evenly;
@@ -728,8 +690,10 @@
   flex: 1;
 }
 .r3b2-spending .r3b2-top .r3b2-words .r3b2-header {
+  /**
   font-size: 20px;
   font-weight: bold;
+  **/
 }
 .r3b2-spending .r3b2-top .r3b2-words .r3b2-text {
   color: gray;
@@ -844,8 +808,146 @@
   font-size: 16px;
 }
 
-.row3 .r3-transaction {
+.r3-transaction {
   width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.r3-transaction .r3b3-top {
+  display: flex;
+  align-items: center;
+}
+.r3-transaction .r3b3-top .r3b3-words .r3b3-header {
+  /**
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 45px;
+  **/
+}
+.r3-transaction .r3b3-top .r3b3-words .r3b3-text {
+  color: gray;
+  margin-right: 30px;
+}
+.r3-transaction .r3b3-top .r3b3-button {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #8a23ff;
+  height: 50px;
+  width: 200px;
+  border: none;
+  padding: 0px 20px;
+  border-radius: 30px;
+  box-shadow: 0px 5px 5px rgb(221, 221, 221);
+  margin-left: 45px;
+}
+.r3-transaction .r3b3-top .r3b3-button .downloadimg {
+  height: 30px;
+  width: 30px;
+  margin-top: 12px;
+}
+.r3-transaction .r3b3-top .r3b3-button .downloadtext {
+  font-weight: 550;
+  font-size: 15px;
+  color: black;
+  margin-top: 0px;
+  padding-top: 18px;
+}
+.r3-transaction .r3b3-top .r3b3threedots {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.r3-transaction .r3b3-top .r3b3threedots .r3b3-icon {
+  background-color: #6E6E6E;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  padding: -2px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.r3-transaction .card2 {
+  background-image: linear-gradient(to right, #9430E4, #615BE6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 225px;
+  border-radius: 20px;
+  margin: 2.5% 2.5%;
+  margin-top: -5px;
+}
+.r3-transaction .inviscircleicon {
+  display: flex;
+  /**
+  #firstCircle {
+
+  }
+
+  #secondCircle {
+
+  }
+  **/
+}
+.r3-transaction .inviscircleicon .inviscircle {
+  width: 30px;
+  height: 30px;
+  background-color: #C4AAE4;
+  margin: 0px -6px;
+  border-radius: 45px;
+}
+.r3-transaction .r2lc-money {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.r3-transaction .r2lc-money .r2money {
+  padding: 0px 30px;
+  margin-top: 20px;
+  /**
+  .r2cardnumber{
+
+  } 
+
+  .r2text {
+
+  }
+
+  .r2stext {
+
+  }
+  **/
+}
+.r3-transaction .r2lc-money .r2sidebar {
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+}
+.r3-transaction .r2lc-money .r2sidebar .r2changebtn {
+  background-color: white;
+  color: #303030;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.r3-transaction .r2lc-money .r2sidebar .r2changebtn .reloadicon {
+  padding-top: 10px;
+}
+.r3-transaction .r2lc-money .r2sidebar .r2changebtn .changebtn {
+  transform: rotate(-90deg);
+  padding: 50px 0px;
+  margin: 0px;
+  font-weight: 550;
+  font-size: 18px;
+}
+.r3-transaction .r2lc-money .r2sidebar .r2changebtn .dropdownicon {
+  padding-bottom: 10px;
 }
 
 /**
