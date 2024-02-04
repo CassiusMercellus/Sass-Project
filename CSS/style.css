@@ -618,52 +618,52 @@
   margin-bottom: 30px;
 }
 .row3 .recentfriend .friendpfps .account1 {
-  border-radius: 50%;
   background-color: rgb(0, 183, 255);
   width: 45px;
   height: 45px;
   border-style: solid;
   border-color: white;
+  border-radius: 50%;
 }
 .row3 .recentfriend .friendpfps .account2 {
-  border-radius: 50%;
   background-color: rgb(255, 166, 0);
   width: 45px;
   height: 45px;
   border-style: solid;
   border-color: white;
+  border-radius: 50%;
 }
 .row3 .recentfriend .friendpfps .account3 {
-  border-radius: 50%;
   background-color: rgb(0, 255, 136);
   width: 45px;
   height: 45px;
   border-style: solid;
   border-color: white;
+  border-radius: 50%;
 }
 .row3 .recentfriend .friendpfps .account4 {
-  border-radius: 50%;
   background-color: rgb(0, 217, 255);
   width: 45px;
   height: 45px;
   border-style: solid;
   border-color: white;
+  border-radius: 50%;
 }
 .row3 .recentfriend .friendpfps .account5 {
-  border-radius: 50%;
   background-color: rgb(234, 0, 255);
   width: 45px;
   height: 45px;
   border-style: solid;
   border-color: white;
+  border-radius: 50%;
 }
 .row3 .recentfriend .friendpfps .account6 {
-  border-radius: 50%;
   background-color: rgb(255, 0, 0);
   width: 45px;
   height: 45px;
   border-style: solid;
   border-color: white;
+  border-radius: 50%;
 }
 
 .r3-friend, .r3b2-spending, .r3-transaction {
@@ -955,6 +955,14 @@
 - Collapsable dashboard
 - Final Row 3 Card (just copy row 2)
 **/
+.dashboardbutton, .dashboard .chartspage .dashboardbutton, .dashboard .Appspage .dashboardbutton {
+  background-color: rgb(248, 248, 248);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
 .dashboard {
   margin-right: 10px;
   padding: 10px;
@@ -994,21 +1002,16 @@
   color: rgb(0, 0, 0);
 }
 .dashboard .Appspage .dashboardbutton {
-  background-color: rgb(248, 248, 248);
-  color: rgb(0, 0, 0);
-  border: none;
-  padding: 10px;
-  font-size: 20px;
+  /**
+  background-color: $buttonbackground;
+  color: $dashFontColor;
+  border:none;
+  padding: $buttonPadding;
+  font-size: $dashFontSize;
+  **/
 }
 .dashboard .chartspage .chartsimg {
   color: rgb(0, 0, 0);
-}
-.dashboard .chartspage .dashboardbutton {
-  background-color: rgb(248, 248, 248);
-  color: rgb(0, 0, 0);
-  border: none;
-  padding: 10px;
-  font-size: 20px;
 }
 .dashboard .bootstrappage .bootimg {
   color: rgb(0, 0, 0);

@@ -11,6 +11,16 @@ $dashFontWeight:500;
 $buttonPadding: 10px;
 $buttonbackground: rgb(248, 248, 248);
 
+// Extend
+.dashboardbutton {
+    background-color: $buttonbackground;
+    color: $dashFontColor;
+    border:none;
+    padding: $buttonPadding;
+    font-size: $dashFontSize;
+}
+
+
 // CSS
 .dashboard {
     margin-right:10px;
@@ -54,11 +64,7 @@ $buttonbackground: rgb(248, 248, 248);
             color: $dashFontColor;
         }
         .dashboardbutton {
-            background-color: $buttonbackground;
-            color: $dashFontColor;
-            border:none;
-            padding: $buttonPadding;
-            font-size: $dashFontSize;
+            @extend .dashboardbutton;
         }
     }
 
@@ -67,11 +73,7 @@ $buttonbackground: rgb(248, 248, 248);
             color: $dashFontColor;
         }
         .dashboardbutton {
-            background-color: $buttonbackground;
-            color: $dashFontColor;
-            border:none;
-            padding: $buttonPadding;
-            font-size: $dashFontSize;
+            @extend .dashboardbutton;
         }
     }
     
@@ -80,11 +82,7 @@ $buttonbackground: rgb(248, 248, 248);
             color: $dashFontColor;
         }
         .dashboardbutton {
-            background-color: $buttonbackground;
-            color: $dashFontColor;
-            border:none;
-            padding: $buttonPadding;
-            font-size: $dashFontSize;
+            @extend .dashboardbutton;
         }
     }
 
@@ -93,11 +91,7 @@ $buttonbackground: rgb(248, 248, 248);
             color: $dashFontColor;
         }
         .dashboardbutton {
-            background-color: $buttonbackground;
-            color: $dashFontColor;
-            border:none;
-            padding: $buttonPadding;
-            font-size: $dashFontSize;
+            @extend .dashboardbutton;
         }
     }
 
@@ -106,11 +100,7 @@ $buttonbackground: rgb(248, 248, 248);
             color: $dashFontColor;
         }
         .dashboardbutton {
-            background-color: $buttonbackground;
-            color: $dashFontColor;
-            border:none;
-            padding: $buttonPadding;
-            font-size: $dashFontSize;
+            @extend .dashboardbutton;
         }
     }
 
@@ -119,11 +109,7 @@ $buttonbackground: rgb(248, 248, 248);
             color: $dashFontColor;
         }
         .dashboardbutton {
-            background-color: $buttonbackground;
-            color: $dashFontColor;
-            border:none;
-            padding: $buttonPadding;
-            font-size: $dashFontSize;
+            @extend .dashboardbutton;
         }
     }
 
@@ -132,11 +118,7 @@ $buttonbackground: rgb(248, 248, 248);
             color: $dashFontColor;
         }
         .dashboardbutton {
-            background-color: $buttonbackground;
-            color: $dashFontColor;
-            border:none;
-            padding: $buttonPadding;
-            font-size: $dashFontSize;
+            @extend .dashboardbutton;
         }
     }
 
@@ -145,11 +127,7 @@ $buttonbackground: rgb(248, 248, 248);
             color: $dashFontColor;
         }
         .dashboardbutton {
-            background-color: $buttonbackground;
-            color: $dashFontColor;
-            border:none;
-            padding: $buttonPadding;
-            font-size: $dashFontSize;
+            @extend .dashboardbutton;
         }
     }
 }
